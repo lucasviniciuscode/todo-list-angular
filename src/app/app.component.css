@@ -1,0 +1,26 @@
+:root {
+	--main-font: 'Roboto', sans-serif;
+  }
+  
+  body {
+	font-family: var(--main-font);
+  }
+
+  p, h3 {
+	font-family: 'Roboto', sans-serif;
+  }
+
+.completed {
+	text-decoration: line-through;
+}
+
+.custom-border {
+	width: 100%;
+	border: 1px solid #005CBB;
+	border-radius: 20px; /* Arredondamento das bordas */
+	padding: 20px; /* Espaçamento interno */
+}
+
+p:hover{
+	cursor: inherit;
+}
